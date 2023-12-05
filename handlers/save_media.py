@@ -74,8 +74,8 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Original Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)],
-                 [InlineKeyboardButton(" Channel", url="https://t.me/bhabhi_ke_pom_pom"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/movies_request_02")]]
+                 [InlineKeyboardButton("Channel", url="https://t.me/bhabhi_ke_pom_pom"),
+                  InlineKeyboardButton("Movies Channel🍿", url="https://t.me/movies_unloaded2")]]
             ),
             disable_web_page_preview=True
         )
@@ -117,7 +117,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
                [[InlineKeyboardButton("Original Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)],
                  [InlineKeyboardButton("Channel", url="https://t.me/bhabhi_ke_pom_pom"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/bhabhi_ke_pom_pom")]]
+                  InlineKeyboardButton("Movies Channel🍿", url="https://t.me/movies_unloaded2")]]
             ),
             disable_web_page_preview=True
         )
