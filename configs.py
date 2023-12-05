@@ -51,7 +51,7 @@ Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
     # Other configuration variables
 
     # Protect content feature
-    PROTECT_CONTENT = True  # Set to True to enable content protection
+    PROTECT_CONTENT = True
 
     # Restrict file forward feature
-    DELETE_RESTRICT_FILES = True  # Set to True to delete forwarded files after 30 minutes
+    DELETE_RESTRICT_FILES = True
