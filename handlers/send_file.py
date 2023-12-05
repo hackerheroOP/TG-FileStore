@@ -59,7 +59,7 @@ async def send_media_and_reply(bot: Client, user_id: int, file_id: int):
     sent_message = await media_forward(bot, user_id, file_id)
     await reply_forward(message=sent_message, file_id=file_id)
 
-    if Config.DELETE_RESTRICT_FILES:
+    if Config.DELETE_RESTRICT_FILES is True:
         asyncio.create_task(delete_after_delay(sent_message, 1800))
 
 
