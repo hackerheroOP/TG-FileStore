@@ -38,7 +38,7 @@ async def media_forward(bot: Client, user_id: int, file_id: int):
 
 async def protect_content(bot: Client, message: Message, file_id: int):
     try:
-        if Config.PROTECT_CONTENT:
+        if Config.PROTECT_CONTENT is True:
             await message.reply_text(
                 "Content protection is enabled. You cannot save, copy, or forward this file.",
                 quote=True
