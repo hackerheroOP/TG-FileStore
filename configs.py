@@ -48,3 +48,10 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
 """
+    # Other configuration variables
+
+    # Protect content feature
+    PROTECT_CONTENT = True  # Set to True to enable content protection
+
+    # Restrict file forward feature
+    DELETE_RESTRICT_FILES = True  # Set to True to delete forwarded files after 30 minutes
